@@ -3,7 +3,7 @@
 Daily-Scheduler
 
 
-The following link can be used to view the webpage: 
+The following link can be used to view the webpage: https://brandy-posthuma.github.io/Daily-Weather-Dashboard/
 
 Here is a screenshot of the requirements of the project as well as the final webpage image
 
