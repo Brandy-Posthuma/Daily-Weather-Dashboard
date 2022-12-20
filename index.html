@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5-Day Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+      <h1 id="Par1"> 5-Day Weather Forecast</h1>
+      <p id="inputContainer">City: <input type="text" id="cityInput"></p>
+      <button onClick="GetInfo()">Click on Me</button>
+      <h2 id="cityName">__London__</h2>
+    </center>
+    <div id="weatherContainer">
+        <div id="iconsContainer">
+            <div Class="icons">
+                <p class="weather" id="day1"></p>
+                <div class="image"><img src="dots.png" class=" imgClass" id="img1" alt=""></div>
+                <p class="minValue" id="day1Min">Loading...</p>
+                <p class="mixValue" id="day1Mix">Loading...</p>
+            </div>
+            <div Class="icons">
+              <p class="weather" id="day2"></p>
+              <div class="image"><img src="dots.png" class=" imgClass" id="img2" alt=""></div>
+              <p class="minValue" id="day2Min">Loading...</p>
+              <p class="mixValue" id="day2Mix">Loading...</p>
+          </div>
+          <div Class="icons">
+            <p class="weather" id="day3"></p>
+            <div class="image"><img src="dots.png" class=" imgClass" id="img3" alt=""></div>
+            <p class="minValue" id="day3Min">Loading...</p>
+            <p class="mixValue" id="day3Mix">Loading...</p>
+        </div>
+        <div Class="icons">
+          <p class="weather" id="day4"></p>
+          <div class="image"><img src="dots.png" class=" imgClass" id="img4" alt=""></div>
+          <p class="minValue" id="day4Min">Loading...</p>
+          <p class="mixValue" id="day4Mix">Loading...</p>
+      </div>
+      <div Class="icons">
+        <p class="weather" id="day5"></p>
+        <div class="image"><img src="dots.png" class=" imgClass" id="img5" alt=""></div>
+        <p class="minValue" id="day5Min">Loading...</p>
+        <p class="mixValue" id="day5Mix">Loading...</p>
+    </div>
+
+        </div>
+    </div>
+    
+    
+
+    <script src="javaScript.js"></script>  
+</body>
+</html>
